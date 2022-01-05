@@ -28,7 +28,7 @@ namespace BubbleSortType.Test
 
         private void PrintOut(int[] sample)
         {
-            TestContext.WriteLine("----Trace......\n");
+            TestContext.WriteLine("-----Trace......\n");
             foreach(var el in sample)
             {
                 TestContext.Write(el + " ");
