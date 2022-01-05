@@ -1,0 +1,7 @@
+C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\bin\Debug\AlgorithmOnIteration.exe.config
+C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\bin\Debug\AlgorithmOnIteration.exe
+C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\bin\Debug\AlgorithmOnIteration.pdb
+C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\obj\Debug\AlgorithmOnIteration.csproj.AssemblyReference.cache
+C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\obj\Debug\AlgorithmOnIteration.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\obj\Debug\AlgorithmOnIteration.exe
+C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\obj\Debug\AlgorithmOnIteration.pdb

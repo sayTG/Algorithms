@@ -1,0 +1,10 @@
+C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\bin\Debug\AlgorithmOnIteration.exe.config
+C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\bin\Debug\AlgorithmOnIteration.exe
+C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\bin\Debug\AlgorithmOnIteration.pdb
+C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\bin\Debug\ThreeSumItteration.dll
+C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\bin\Debug\ThreeSumItteration.pdb
+C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\obj\Debug\Algorithm.csproj.AssemblyReference.cache
+C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\obj\Debug\Algorithm.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\obj\Debug\Algorithm.csproj.CopyComplete
+C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\obj\Debug\AlgorithmOnIteration.exe
+C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\obj\Debug\AlgorithmOnIteration.pdb
