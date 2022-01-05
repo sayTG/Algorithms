@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NUnit.Framework;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,11 +13,11 @@ namespace BubbleSortType
         {
             for (int e = array.Length - 1; e > 0; e--)
             {
-                for(int i = 0; i < array.Length; i++)
+                for (int i = 0; i < e; i++)
                 {
-                    if(array[i] > array[i + 1])
+                    if (array[i] > array[i + 1])
                     {
-                        Swap(array, i , i+1);
+                        Swap(array, i, i + 1);
                     }
                 }
             }
