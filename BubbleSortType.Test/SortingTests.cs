@@ -16,6 +16,12 @@ namespace BubbleSortType.Test
             RunTestsForSortAlgorithm(BubbleSort.BubbleSortMethod);
           
         }
+        [Test]
+        public void InsertionSort_ValidInput_SortInput()
+        {
+            RunTestsForSortAlgorithm(BubbleSort.InsertionSortEx);
+
+        }
         private void RunTestsForSortAlgorithm(Action<int[]> sort)
         {
             foreach(var sample in Samples())
@@ -28,7 +34,7 @@ namespace BubbleSortType.Test
 
         private void PrintOut(int[] sample)
         {
-            TestContext.WriteLine("-----Trace......\n");
+            TestContext.WriteLine("---------Trace--------\n");
             foreach(var el in sample)
             {
                 TestContext.Write(el + " ");

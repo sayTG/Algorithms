@@ -27,6 +27,9 @@ namespace Algorithm
             if (answer != null)
             {
                 Console.WriteLine(String.Join(", ", answer));
+                var list = new List<int>() { 1, 0, 5, 3, 4 };
+                list.Sort();
+                Console.WriteLine(String.Join(", ", list));
             }
         }
         private static void TwoSumOptimised()

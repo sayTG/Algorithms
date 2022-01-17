@@ -30,5 +30,24 @@ namespace BubbleSortType
             array[i] = array[j];
             array[j] = temp;
         }
+
+        public static void InsertionSortEx(int[] array)
+        {
+            for (int partIndex = 1; partIndex < array.Length; partIndex++)
+            {
+                if(array[partIndex] < array[partIndex - 1])
+                {
+                    Swap(array, partIndex, partIndex - 1);
+                    for (int i = partIndex -1; i > 0; i--)
+                    {
+                        if (array[i] < array[i-1])
+                        {
+                            Swap(array, i, i-1);
+                        }
+                    }
+                      
+                }
+            }
+        }
     }
 }
