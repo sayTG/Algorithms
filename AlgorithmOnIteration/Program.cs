@@ -11,7 +11,32 @@ namespace Algorithm
     {
         static void Main(string[] args)
         {
+            var listA = new List<string> { "a", "b", "c" };
+            var listB = new List<string> { "b", "c", "a" };
 
+            foreach (var item in listB)
+            {
+                if (!listA.Contains(item))
+                    Console.WriteLine("N0t found!");
+                else
+                    Console.WriteLine("found!");
+            }
+            
+            var list = new List<int> { 2, 0,5, 3, 0,2 };
+            int count = 0;
+            List<int> ans = new List<int>();
+            foreach (var item in list)
+            {
+                if (item == 0)
+                    count += 1;
+                else
+                    ans.Add(item);
+            }
+            for(int i = 0; i < count; i++)
+            {
+                ans.Add(0);
+            }
+            Console.WriteLine(String.Join(", ", ans));
             ThreeSumToZeroIteration();
             Console.Read();
         }
