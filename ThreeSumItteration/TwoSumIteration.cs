@@ -26,8 +26,8 @@ namespace ThreeSumIteration
                 if (resultDictionary.TryGetValue(secondNumber, out int index))
                 {
                     return new[] {
-                index,
-                i
+                firstNumber,
+                secondNumber
             };
                 }
                 //resultDictionary.Add(firstNumber, i);

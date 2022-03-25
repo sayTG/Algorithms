@@ -1,9 +1,7 @@
-﻿using System;
+﻿using AlgorithmOnIteration;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ThreeSumIteration;
 
 namespace Algorithm
 {
@@ -11,18 +9,71 @@ namespace Algorithm
     {
         static void Main(string[] args)
         {
-            var listA = new List<string> { "a", "b", "c" };
-            var listB = new List<string> { "b", "c", "a" };
+            int input = 123450;
+            string output = "";
 
-            foreach (var item in listB)
+            while (input > 0)
             {
-                if (!listA.Contains(item))
-                    Console.WriteLine("N0t found!");
-                else
-                    Console.WriteLine("found!");
+                int current = input % 10;
+                input /= 10;
+
+                if (current == 0)
+                    current = 10;
+
+                output = (char)((char)'A' + (current - 1)) + output;
             }
-            
-            var list = new List<int> { 2, 0,5, 3, 0,2 };
+
+            Console.WriteLine(output);
+            string myList = "aaaaabbccbbbdddde";
+            List<List<double>> neweh = new List<List<double>>();
+            Dictionary<char, int> keyValuePairs = new Dictionary<char, int>();
+            int count1 = 1;
+            foreach (var s in myList)
+            {
+                if (keyValuePairs.Select(x => x.Key).LastOrDefault() != s)
+                    count1 = 1;
+                keyValuePairs[s] = count1;
+                count1++;
+            }
+            string newString = "";
+            int count2 = 1;
+            int z = 0;
+            for (z = 0; z < myList.Length; z++)
+            {
+                if (z < myList.Length - 1 && myList[z] != myList[z + 1])
+                {
+                    newString += myList[z];
+                    newString += count2;
+                    count2 = 0;
+                }
+                count2++;
+            }
+            newString += myList[z - 1];
+            newString += count2 - 1;
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine(newString);
+
+
+            keyValuePairs.Select(x => x.Key).ToArray();
+            var mes = keyValuePairs.Select(x => x.Value).ToArray();
+            Console.WriteLine(String.Join("", keyValuePairs));
+            Console.WriteLine(String.Join("", mes));
+            Console.WriteLine("-----------------------------------");
+
+
+            string string2 = "A2B5C6D5";
+
+            List<char> newArray = new List<char>();
+            for (int i = 0; i < string2.Length; i += 2)
+            {
+                for (int j = 0; j < string2[i + 1] - '0'; j++)
+                {
+                    newArray.Add(string2[i]);
+                }
+            }
+            Console.WriteLine(String.Join("", newArray));
+
+            var list = new List<int> { 2, 0, 5, 3, 0, 2 };
             int count = 0;
             List<int> ans = new List<int>();
             foreach (var item in list)
@@ -32,19 +83,25 @@ namespace Algorithm
                 else
                     ans.Add(item);
             }
-            for(int i = 0; i < count; i++)
+            for (int i = 0; i < count; i++)
             {
                 ans.Add(0);
             }
             Console.WriteLine(String.Join(", ", ans));
             ThreeSumToZeroIteration();
+            Console.WriteLine("----------Punch-------------------------");
+            PunchSolution();
+            TwoSumOptimised();
+            var ss = SmallestString.GetSmallestString(5, 73);
+            Console.WriteLine("----------Leet-------------------------");
+            Console.WriteLine(ss);
             Console.Read();
         }
 
         private static void ThreeSumToZeroIteration()
         {
             int[] a = new int[10] { 2, -4, 5, 6, 8, 9, 10, -3, -4, 6 };
-            int[,] b = new int[2, 3] { { 2, 3, 4}, { 4, 5, 6 } }; //multi dimensional array
+            int[,] b = new int[2, 3] { { 2, 3, 4 }, { 4, 5, 6 } }; //multi dimensional array
             int[][] jaggedArray = new int[3][]; //jagged array has fixed rows and varying columns. You have to intialize the rows of a jagged array with its size.
 
 
@@ -61,6 +118,56 @@ namespace Algorithm
         {
             int[] ans = ThreeSumIteration.TwoSumIteration.TwoSumOptimized(new int[] { 1, 2, 3, 4, 5, 6, 7 }, 9);
             Console.WriteLine(string.Join(" ", ans));
+        }
+
+        public static void PunchSolution()
+        {
+            object[] cards = { "Jack", 8, 2, 6, "King", 5, 3, 4, "Queen" };
+            var list = cards.ToList();
+            Dictionary<int, object> keyValuePairs = new Dictionary<int, object>();
+            foreach (object card in cards)
+            {
+                if ((object)card == "Jack")
+                    keyValuePairs.Add(13, card);
+                else if ((object)card == "King")
+                    keyValuePairs.Add(15, card);
+                else if ((object)card == "Queen")
+                    keyValuePairs.Add(14, card);
+                else
+                    keyValuePairs.Add((int)card, card);
+            }
+            Console.WriteLine(string.Join(", ", keyValuePairs.OrderBy(x => x.Key).Select(x => x.Value)));
+
+            /***Solution 2****/
+
+            List<PunchSolution2> results = new List<PunchSolution2>();
+            for (int i = 0; i < cards.Length; i++)
+            {
+                results.Add(new PunchSolution2(cards[i]));
+            }
+            Console.WriteLine(string.Join(", ", results.OrderBy(x => x.key).Select(x => x.value)));
+            Console.WriteLine("---------END-------");
+        }
+        public class PunchSolution2
+        {
+            public PunchSolution2(object value)
+            {
+                this.key = Sort(value);
+                this.value = value;
+            }
+            public int key { get; set; }
+            public object value { get; set; }
+            public int Sort(object value)
+            {
+                if ((object)value == "Jack")
+                    return this.key = 13;
+                else if ((object)value == "King")
+                    return this.key = 15;
+                else if ((object)value == "Queen")
+                    return this.key = 14;
+                else
+                    return this.key = (int)value;
+            }
         }
     }
 }
