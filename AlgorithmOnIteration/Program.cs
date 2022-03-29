@@ -95,6 +95,17 @@ namespace Algorithm
             var ss = SmallestString.GetSmallestString(5, 73);
             Console.WriteLine("----------Leet-------------------------");
             Console.WriteLine(ss);
+            Console.WriteLine("----------Decagon-------------------------");
+            string[] inputs = { "/foo/../test/../test/../foo//bar/./baz", "/foo/bar/baz", "foo/bar/baz", "/../../foo/bar/baz", "../../foo/bar/baz" };
+            foreach(string input1 in inputs)
+            {
+                var sss = ShortenPath.ShortenInputPath(input1);
+                Console.WriteLine(sss);
+            }
+            Console.WriteLine("----------Leet-------------------------");
+            string[] nn = { "flower", "flow", "flight" };
+            string[] nm = { "" };
+            var ssds = LongestCommonPrefix.LongestCommonPrefixMethod(nm);
             Console.Read();
         }
 

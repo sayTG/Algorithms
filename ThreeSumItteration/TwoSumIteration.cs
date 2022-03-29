@@ -33,7 +33,7 @@ namespace ThreeSumIteration
                 //resultDictionary.Add(firstNumber, i);
                 resultDictionary[firstNumber] = i;
             }
-            return Array.Empty<int>(); ;
+            return Array.Empty<int>();
         }
     }
 }

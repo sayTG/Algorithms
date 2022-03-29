@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LongestCommonPrefix.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RomanToInt.cs" />
+    <Compile Include="ShortenPath.cs" />
     <Compile Include="SmallestString.cs" />
   </ItemGroup>
   <ItemGroup>
