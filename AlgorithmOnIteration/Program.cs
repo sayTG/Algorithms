@@ -97,7 +97,7 @@ namespace Algorithm
             Console.WriteLine(ss);
             Console.WriteLine("----------Decagon-------------------------");
             string[] inputs = { "/foo/../test/../test/../foo//bar/./baz", "/foo/bar/baz", "foo/bar/baz", "/../../foo/bar/baz", "../../foo/bar/baz" };
-            foreach(string input1 in inputs)
+            foreach (string input1 in inputs)
             {
                 var sss = ShortenPath.ShortenInputPath(input1);
                 Console.WriteLine(sss);
@@ -106,6 +106,8 @@ namespace Algorithm
             string[] nn = { "flower", "flow", "flight" };
             string[] nm = { "" };
             var ssds = LongestCommonPrefix.LongestCommonPrefixMethod(nm);
+            var sumOfNumbers = (from number in Enumerable.Range(1, 4) group number by number % 2 into setofnumbers select setofnumbers.Sum()).Max();
+            Console.WriteLine(sumOfNumbers);
             Console.Read();
         }
 
