@@ -49,6 +49,7 @@
     <Compile Include="RomanToInt.cs" />
     <Compile Include="ShortenPath.cs" />
     <Compile Include="SmallestString.cs" />
+    <Compile Include="ValidParentheses.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

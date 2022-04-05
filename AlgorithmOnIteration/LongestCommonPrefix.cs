@@ -6,27 +6,31 @@ namespace AlgorithmOnIteration
     {
         public static string LongestCommonPrefixMethod(string[] strs)
         {
-            string output = "";
-            output += strs[0].FirstOrDefault();
-            char next = 'a';
-            if (strs.Length == 1)
-                return strs[0];
-            else if (strs.Length > 1 && strs[0].ElementAt(0) != strs[1].ElementAt(0))
+            if (strs.Length == 0 || strs == null)
                 return "";
+            string output1 = "";
             for (int i = 0; i < strs[0].Length; i++)
             {
-                for (int j = 0; j < strs.Length; j++)
+                char c = strs[0].ToCharArray().ElementAt(i);
+                for (int j = 1; j < strs.Length; j++)
                 {
-                    var charA = strs[j].ToCharArray();
-                    if (charA[i] != output.Last())
+                    if (j == strs[j].Length || strs[j].ToCharArray().ElementAt(i) != c)
                     {
-                        output = output.Remove(output.Length -1);
-                        return output;
+                        return output1 += c;
                     }
-                    if (i < strs[0].Length - 1)
-                        next = charA[i + 1];
                 }
-                output += next;
+            }
+            return output1;
+
+            //most correct answer
+            string output = "";
+            for (int i = 1; i <= strs[0].Length; i++)
+            {
+                string j = strs[0].Substring(0, i);
+                bool result = strs.All(x => x.StartsWith(j));
+                if (result)
+                    output = j;
+                else break;
             }
             return output;
         }

@@ -104,10 +104,10 @@ namespace Algorithm
             }
             Console.WriteLine("----------Leet-------------------------");
             string[] nn = { "flower", "flow", "flight" };
-            string[] nm = { "" };
-            var ssds = LongestCommonPrefix.LongestCommonPrefixMethod(nm);
-            var sumOfNumbers = (from number in Enumerable.Range(1, 4) group number by number % 2 into setofnumbers select setofnumbers.Sum()).Max();
-            Console.WriteLine(sumOfNumbers);
+            string[] nm = { "a", "a", "b" };
+            var ssds = LongestCommonPrefix.LongestCommonPrefixMethod(nn);
+            Console.WriteLine(ssds);
+            Console.WriteLine(ValidParentheses.IsValid());
             Console.Read();
         }
 
