@@ -108,6 +108,12 @@ namespace Algorithm
             var ssds = LongestCommonPrefix.LongestCommonPrefixMethod(nn);
             Console.WriteLine(ssds);
             Console.WriteLine(ValidParentheses.IsValid());
+            Console.WriteLine("----------RemoveDuplicatesMethod-------------------------");
+            int[] marks = new int[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
+            int[] mark = new int[] { 1, 1, 2 };
+            int length = RemoveDuplicates.RemoveDuplicatesMethod(marks);
+            RemoveDuplicates.FindRoots();
+            Console.WriteLine(length);
             Console.Read();
         }
 
