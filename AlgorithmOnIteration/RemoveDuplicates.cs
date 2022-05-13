@@ -26,5 +26,22 @@ namespace AlgorithmOnIteration
             double y = (-b + Math.Sqrt(Math.Pow(b, 2) - (4 * a * c))) / 2 * a;
             double z = (-b - Math.Sqrt(Math.Pow(b, 2) - (4 * a * c))) / 2 * a;
         }
+        public static List<string> IsValidEmail(List<string> emails)
+        {
+            List<string> approvedEmails = new List<string>();
+            foreach(string email in emails)
+            {
+                string trimmedEmail = email.Trim();
+                try
+                {
+                    approvedEmails.Add(new System.Net.Mail.MailAddress(trimmedEmail).ToString());
+                }
+                catch (FormatException e)
+                {
+                    throw new Exception("Not a valid Email! " + e.ToString());
+                }
+            }
+            return approvedEmails;
+        }
     }
 }

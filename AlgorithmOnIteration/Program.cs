@@ -114,6 +114,9 @@ namespace Algorithm
             int length = RemoveDuplicates.RemoveDuplicatesMethod(marks);
             RemoveDuplicates.FindRoots();
             Console.WriteLine(length);
+            /****TEST EMAILS ***/
+            List<string> emails = new List<string> { "intadmissions@northampton.ac.uk", "gradapplytranscripts@gsu.edu", "intadmissions@lincoln.ac.uk", "gradtranscripts@ucalgary.ca." };
+            Console.WriteLine(String.Join(",", RemoveDuplicates.IsValidEmail(emails)));
             Console.Read();
         }
 
