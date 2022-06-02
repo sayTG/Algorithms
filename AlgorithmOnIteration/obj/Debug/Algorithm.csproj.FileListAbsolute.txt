@@ -8,3 +8,5 @@ C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\AlgorithmOnIteration
 C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\obj\Debug\Algorithm.csproj.CopyComplete
 C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\obj\Debug\AlgorithmOnIteration.exe
 C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\obj\Debug\AlgorithmOnIteration.pdb
+C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\bin\Debug\BubbleSortMethod.dll
+C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\bin\Debug\BubbleSortMethod.pdb

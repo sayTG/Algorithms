@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Employees Management.cs" />
+    <Compile Include="HourGlassSum.cs" />
     <Compile Include="LongestCommonPrefix.cs" />
     <Compile Include="MergeTwoLists.cs" />
     <Compile Include="NotesStore.cs" />
@@ -53,12 +54,18 @@
     <Compile Include="RomanToInt.cs" />
     <Compile Include="ShortenPath.cs" />
     <Compile Include="SmallestString.cs" />
+    <Compile Include="StringManipulation.cs" />
+    <Compile Include="TeamFormation.cs" />
     <Compile Include="ValidParentheses.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BubbleSortMethod\BubbleSortType.csproj">
+      <Project>{54106606-B4F8-4586-8F3A-0B10DB215D84}</Project>
+      <Name>BubbleSortType</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ThreeSumItteration\ThreeSumIteration.csproj">
       <Project>{F147EC53-39F9-4644-832B-3B9E20B30B59}</Project>
       <Name>ThreeSumIteration</Name>

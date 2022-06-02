@@ -1,4 +1,5 @@
 ﻿using AlgorithmOnIteration;
+using BubbleSortType;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -111,12 +112,31 @@ namespace Algorithm
             Console.WriteLine("----------RemoveDuplicatesMethod-------------------------");
             int[] marks = new int[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
             int[] mark = new int[] { 1, 1, 2 };
-            int length = RemoveDuplicates.RemoveDuplicatesMethod(marks);
+            int length = RemoveDuplicates.RemoveDuplicatesMethod1(marks);
             RemoveDuplicates.FindRoots();
             Console.WriteLine(length);
             /****TEST EMAILS ***/
             List<string> emails = new List<string> { "intadmissions@northampton.ac.uk", "gradapplytranscripts@gsu.edu", "intadmissions@lincoln.ac.uk", "gradtranscripts@ucalgary.ca." };
             Console.WriteLine(String.Join(",", RemoveDuplicates.IsValidEmail(emails)));
+            Console.WriteLine("---------HACKER-------");
+            List<List<int>> mm = new List<List<int>> {
+                new List<int> { -1, - 1, 0, - 9, - 2, - 2 },
+                new List<int> { -2, -1, -6, -8, -2, -5 },
+                new List<int> { -1, -1, -1 ,-2, -3, -4 },
+                new List<int> { -1, -9, -2, -4, -4, -5 },
+                new List<int> { -7, -3, -3, -2, -9, -9},
+                new List<int> { -1, - 3, - 1, - 2, - 4, - 5 }
+            };
+            HourGlassSum.HourglassSum(mm);
+            Console.WriteLine("---------HACKER2-------");
+            List<int> skills = new List<int> { 12, 4, 6, 13, 5, 10 };
+            Console.WriteLine(TeamFormation.WaysToFormTeam(skills, 4, 10, 3));
+            Console.WriteLine("---------SORT COUNT-------");
+            int[] arr = { 4, 3, 1, 2 };
+            Console.WriteLine(BubbleSort.MinimumSwaps(arr));
+            Console.WriteLine("---------String Manipulation-------");
+            string swe = "aaaabbccdde";
+            Console.WriteLine(StringManipulation.StringManipulationMethod2(swe));
             Console.Read();
         }
 

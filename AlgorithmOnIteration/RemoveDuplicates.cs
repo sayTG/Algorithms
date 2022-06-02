@@ -21,6 +21,15 @@ namespace AlgorithmOnIteration
 
             return c + 1;
         }
+        public static int RemoveDuplicatesMethod1(int[] nums)
+        {
+            List<int> distList = nums.ToList().Distinct().ToList();
+            for (int i = 0; i < distList.Count(); i++)
+            {
+                nums[i] = distList[i];
+            }
+            return distList.Count();
+        }
         public static void FindRoots(double a = 1, double b = 5, double c = 4)
         {
             double y = (-b + Math.Sqrt(Math.Pow(b, 2) - (4 * a * c))) / 2 * a;
