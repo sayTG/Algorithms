@@ -136,7 +136,7 @@ namespace Algorithm
             Console.WriteLine(BubbleSort.MinimumSwaps(arr));
             Console.WriteLine("---------String Manipulation-------");
             string swe = "aaaabbccdde";
-            Console.WriteLine(StringManipulation.StringManipulationMethod2(swe));
+            Console.WriteLine(StringManipulation.StringManipulationMethod3(swe));
             Console.Read();
         }
 

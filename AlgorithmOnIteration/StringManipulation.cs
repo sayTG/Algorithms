@@ -47,5 +47,14 @@ namespace AlgorithmOnIteration
             }
             return s[s.Length - 1];
         }
+        public static string StringManipulationMethod3(string s)
+        {
+            string result = "";
+            for (int i = s.Length - 1; i >= 0; i--)
+            {
+                result += s[i];
+            }
+            return result;
+        }
     }
 }
