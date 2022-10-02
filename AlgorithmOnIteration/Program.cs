@@ -140,12 +140,41 @@ namespace Algorithm
             Console.WriteLine("---------String Manipulation ANAGRAM-------");
             string a = "bugexikjevtubidpulaelsbcqlupwetzyzdvjphn";
             string b = "lajoipfecfinxjspxmevqxuqyalhrsxcvgsdxxkacspbchrbvvwnvsdtsrdk";
-            Console.WriteLine(StringManipulation.makeAnagram(a,b));
+            Console.WriteLine(StringManipulation.makeAnagram(a, b));
             Console.WriteLine("---------Longest Palindrome-------");
             Console.WriteLine(LongestPalindrome.PalindromicSubstring("hellosannasmith"));
             Console.WriteLine("---------Camel Case-------");
             Console.WriteLine(CamelCase.CamelCaseStr("cats AND*Dogs-are Awesome"));
+            Console.WriteLine("-------------------------RemoveElement------------------------------------------------");
+            int[] nums = { 3, 2, 2, 3 }; var val = 3;
+            Console.WriteLine(RemoveElement(nums, val));
             Console.Read();
+        }
+        public static int RemoveElement(int[] nums, int val)
+        {
+            //int old = nums.Length;
+            //nums = nums.Where(x => x != val).ToArray();
+            //int n = nums.Length;
+            //if (n < old)
+            //{
+            //    for (int i = n; i < old; i++)
+            //        nums = nums.Append(0).ToArray();
+            //}
+            //Console.WriteLine(String.Join(",", nums));
+            //return n;
+
+            int j = 0;
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] != val)
+                {
+                    nums[j] = nums[i];
+                    j++;
+                }
+            }
+            Console.WriteLine(String.Join(",", nums));
+            return j;
         }
 
         private static void ThreeSumToZeroIteration()

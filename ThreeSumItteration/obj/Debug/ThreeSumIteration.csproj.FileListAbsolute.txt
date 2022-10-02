@@ -4,3 +4,9 @@ C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\ThreeSumItteration\o
 C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\ThreeSumItteration\obj\Debug\ThreeSumIteration.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\ThreeSumItteration\obj\Debug\ThreeSumItteration.dll
 C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\ThreeSumItteration\obj\Debug\ThreeSumItteration.pdb
+C:\Users\ThankGod Busari\Documents\Projects\Algorithms\ThreeSumItteration\bin\Debug\ThreeSumItteration.dll
+C:\Users\ThankGod Busari\Documents\Projects\Algorithms\ThreeSumItteration\bin\Debug\ThreeSumItteration.pdb
+C:\Users\ThankGod Busari\Documents\Projects\Algorithms\ThreeSumItteration\obj\Debug\ThreeSumIteration.csproj.AssemblyReference.cache
+C:\Users\ThankGod Busari\Documents\Projects\Algorithms\ThreeSumItteration\obj\Debug\ThreeSumIteration.csproj.CoreCompileInputs.cache
+C:\Users\ThankGod Busari\Documents\Projects\Algorithms\ThreeSumItteration\obj\Debug\ThreeSumItteration.dll
+C:\Users\ThankGod Busari\Documents\Projects\Algorithms\ThreeSumItteration\obj\Debug\ThreeSumItteration.pdb

@@ -22,3 +22,15 @@ E:\sayTG\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\obj\Debug\Algorithm.csp
 E:\sayTG\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\obj\Debug\Algorithm.csproj.CopyComplete
 E:\sayTG\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\obj\Debug\AlgorithmOnIteration.exe
 E:\sayTG\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\obj\Debug\AlgorithmOnIteration.pdb
+C:\Users\ThankGod Busari\Documents\Projects\Algorithms\AlgorithmOnIteration\bin\Debug\AlgorithmOnIteration.exe.config
+C:\Users\ThankGod Busari\Documents\Projects\Algorithms\AlgorithmOnIteration\bin\Debug\AlgorithmOnIteration.exe
+C:\Users\ThankGod Busari\Documents\Projects\Algorithms\AlgorithmOnIteration\bin\Debug\AlgorithmOnIteration.pdb
+C:\Users\ThankGod Busari\Documents\Projects\Algorithms\AlgorithmOnIteration\bin\Debug\BubbleSortMethod.dll
+C:\Users\ThankGod Busari\Documents\Projects\Algorithms\AlgorithmOnIteration\bin\Debug\ThreeSumItteration.dll
+C:\Users\ThankGod Busari\Documents\Projects\Algorithms\AlgorithmOnIteration\bin\Debug\BubbleSortMethod.pdb
+C:\Users\ThankGod Busari\Documents\Projects\Algorithms\AlgorithmOnIteration\bin\Debug\ThreeSumItteration.pdb
+C:\Users\ThankGod Busari\Documents\Projects\Algorithms\AlgorithmOnIteration\obj\Debug\Algorithm.csproj.AssemblyReference.cache
+C:\Users\ThankGod Busari\Documents\Projects\Algorithms\AlgorithmOnIteration\obj\Debug\Algorithm.csproj.CoreCompileInputs.cache
+C:\Users\ThankGod Busari\Documents\Projects\Algorithms\AlgorithmOnIteration\obj\Debug\Algorithm.csproj.CopyComplete
+C:\Users\ThankGod Busari\Documents\Projects\Algorithms\AlgorithmOnIteration\obj\Debug\AlgorithmOnIteration.exe
+C:\Users\ThankGod Busari\Documents\Projects\Algorithms\AlgorithmOnIteration\obj\Debug\AlgorithmOnIteration.pdb
