@@ -10,3 +10,15 @@ C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\AlgorithmOnIteration
 C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\obj\Debug\AlgorithmOnIteration.pdb
 C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\bin\Debug\BubbleSortMethod.dll
 C:\Users\Administrator\Downloads\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\bin\Debug\BubbleSortMethod.pdb
+E:\sayTG\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\bin\Debug\AlgorithmOnIteration.exe.config
+E:\sayTG\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\bin\Debug\AlgorithmOnIteration.exe
+E:\sayTG\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\bin\Debug\AlgorithmOnIteration.pdb
+E:\sayTG\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\bin\Debug\BubbleSortMethod.dll
+E:\sayTG\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\bin\Debug\ThreeSumItteration.dll
+E:\sayTG\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\bin\Debug\BubbleSortMethod.pdb
+E:\sayTG\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\bin\Debug\ThreeSumItteration.pdb
+E:\sayTG\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\obj\Debug\Algorithm.csproj.AssemblyReference.cache
+E:\sayTG\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\obj\Debug\Algorithm.csproj.CoreCompileInputs.cache
+E:\sayTG\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\obj\Debug\Algorithm.csproj.CopyComplete
+E:\sayTG\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\obj\Debug\AlgorithmOnIteration.exe
+E:\sayTG\sayTG\AlgorithmOnIteration\AlgorithmOnIteration\obj\Debug\AlgorithmOnIteration.pdb

@@ -137,6 +137,14 @@ namespace Algorithm
             Console.WriteLine("---------String Manipulation-------");
             string swe = "aaaabbccdde";
             Console.WriteLine(StringManipulation.StringManipulationMethod3(swe));
+            Console.WriteLine("---------String Manipulation ANAGRAM-------");
+            string a = "bugexikjevtubidpulaelsbcqlupwetzyzdvjphn";
+            string b = "lajoipfecfinxjspxmevqxuqyalhrsxcvgsdxxkacspbchrbvvwnvsdtsrdk";
+            Console.WriteLine(StringManipulation.makeAnagram(a,b));
+            Console.WriteLine("---------Longest Palindrome-------");
+            Console.WriteLine(LongestPalindrome.PalindromicSubstring("hellosannasmith"));
+            Console.WriteLine("---------Camel Case-------");
+            Console.WriteLine(CamelCase.CamelCaseStr("cats AND*Dogs-are Awesome"));
             Console.Read();
         }
 

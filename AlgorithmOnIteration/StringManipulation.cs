@@ -56,5 +56,45 @@ namespace AlgorithmOnIteration
             }
             return result;
         }
+        public static int makeAnagram(string a, string b)
+        {
+            int count = 0;
+            foreach (char c in b)
+            {
+                Console.WriteLine("character is: " + c);
+                if (a.Any(x => x == c))
+                {
+                    count += 2;
+                    int charCountA = a.Where(x => x == c).Count();
+                    Console.WriteLine("charCountA: " + charCountA);
+                    if (charCountA > 1)
+                    {
+                        int charCountB = b.Where(x => x == c).Count();
+                        Console.WriteLine("charCountB: " + charCountB);
+                        if (charCountA <= charCountB)
+                        {
+                            count -= 2;
+                            count += charCountA * 2;
+                            Console.WriteLine("count in charA: " + count);
+                        }
+                        else if (charCountB <= charCountA)
+                        {
+                            count -= 2;
+                            count += charCountB * 2;
+                            Console.WriteLine("count in charB: " + count);
+                        }
+                    }
+                    a = a.Replace(c, char.MaxValue);
+                    Console.WriteLine("Replace: " + a);
+                    Console.WriteLine("Count" + count);
+                }
+            }
+            Console.WriteLine("kkjhgfgh");
+            Console.WriteLine(a.Length);
+            Console.WriteLine(b.Length);
+            Console.WriteLine(count);
+            Console.WriteLine(char.MinValue);
+            return a.Length + b.Length - count;
+        }
     }
 }
